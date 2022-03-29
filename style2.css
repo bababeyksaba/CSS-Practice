@@ -1,0 +1,28 @@
+.front{
+    background-color: blanchedalmond;
+    border: solid 1px black;
+    padding: 50px;
+    position: absolute;
+    
+}
+.back{
+    background-color: red;
+    border: solid 1px black;
+    padding: 50px;
+    transform: rotateY(90deg) ;
+
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+}
+@keyframes rotate {
+    0%{transform: rotateY(0deg);}
+    100%{transform: rotateY(90deg);}
+}
+.front:hover{
+    animation: rotate 0.2s 0.2s ;
+}
+.back:hover{
+    transform: rotateX(180deg) rotateY(90deg);
+    animation: rotate 0.2s 0.2s ease-in reverse;}
