@@ -25,4 +25,6 @@
 }
 .panel li:hover div.back{
     /* transform: rotateY(90deg); */
-    animation: rotate 0.2s 0.2s ease-out forwards reverse;}
+    animation: rotate 0.2s 0.2s ease-out forwards reverse;
+   
+}
